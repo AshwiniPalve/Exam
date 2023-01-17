@@ -1,0 +1,32 @@
+@using BOL;
+@{
+    ViewData["Title"] = "Employee List";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Employess</h1>
+    @{
+        List<Employee> allemployees=(List<Employee>)ViewData["employees"];
+            <table style="border: 2px solid black;">
+                <tr style="border: 2px solid black;">
+                    <th style="border: 2px solid black;">Id</th>
+                    <th style="border: 2px solid black;">Name</th>
+                    <th style="border: 2px solid black;">Address</th>
+
+                </tr>
+
+                @foreach (Employee emp in allemployees)
+                {
+                    <tr style="border: 2px solid black;">
+                        <td style="border: 2px solid black;">@emp.Id</td>
+                        <td style="border: 2px solid black;"><a href="/employee/details/@emp.Id">@emp.Name</a></td>
+                         <td style="border: 2px solid black;"><a href="/employee/details/@emp.Id">@emp.Address</a></td>
+                    </tr>
+                    @* <li><a href="/employee/details/@emp.Id">@emp.Email</a></li> *@
+                    
+                }
+                
+            </table>
+        
+    }
+</div>

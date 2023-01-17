@@ -1,0 +1,17 @@
+D:\MVc\BLL\bin\Debug\net7.0\BLL.deps.json
+D:\MVc\BLL\bin\Debug\net7.0\BLL.dll
+D:\MVc\BLL\bin\Debug\net7.0\BLL.pdb
+D:\MVc\BLL\bin\Debug\net7.0\BOL.dll
+D:\MVc\BLL\bin\Debug\net7.0\DAL.dll
+D:\MVc\BLL\bin\Debug\net7.0\BOL.pdb
+D:\MVc\BLL\bin\Debug\net7.0\DAL.pdb
+D:\MVc\BLL\obj\Debug\net7.0\BLL.csproj.AssemblyReference.cache
+D:\MVc\BLL\obj\Debug\net7.0\BLL.GeneratedMSBuildEditorConfig.editorconfig
+D:\MVc\BLL\obj\Debug\net7.0\BLL.AssemblyInfoInputs.cache
+D:\MVc\BLL\obj\Debug\net7.0\BLL.AssemblyInfo.cs
+D:\MVc\BLL\obj\Debug\net7.0\BLL.csproj.CoreCompileInputs.cache
+D:\MVc\BLL\obj\Debug\net7.0\BLL.csproj.CopyComplete
+D:\MVc\BLL\obj\Debug\net7.0\BLL.dll
+D:\MVc\BLL\obj\Debug\net7.0\refint\BLL.dll
+D:\MVc\BLL\obj\Debug\net7.0\BLL.pdb
+D:\MVc\BLL\obj\Debug\net7.0\ref\BLL.dll

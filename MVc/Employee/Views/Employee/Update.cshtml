@@ -1,0 +1,13 @@
+@using BOL
+@model Employee
+
+<div class="text-center">
+    <h1 class="display-4">Update Employee</h1>
+    <hr/>
+    <form method="post" action="/employee/update">
+        Id : <input type="text" id="id" name="id" asp-for="Id"><br><br>
+        Name : <input type="text" id="name" name="name" asp-for="Name"><br><br>
+        Address : <input type="text" id="Address" name="Address" asp-for="Address"><br><br>
+        <button type="submit" id="btn" name="btn">Update</button>
+    </form> 
+</div>
